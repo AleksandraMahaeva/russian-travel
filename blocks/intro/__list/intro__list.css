@@ -1,0 +1,31 @@
+.intro__list {
+  color: #FFFFFF;
+  min-width: 288px;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0px 16px 64px 16px;
+  text-align: left;
+  padding: 0px;
+  list-style: none;
+}
+
+@media screen and (min-width: 767px) {
+  .intro__list {
+    min-width: 720px;
+    margin: 0px 24px 88px 24px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .intro__list {
+    min-width: 690px;
+    margin: 0px auto 92px 48px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .intro__list {
+    min-width: 690px;
+    margin: 0px auto 92px 148px;
+  }
+}

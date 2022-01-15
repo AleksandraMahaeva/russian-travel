@@ -1,0 +1,26 @@
+.place__link {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .place__link {
+      font-size: 16px;
+      line-height: 26.08px;
+      margin: 0 0 48px 28px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .place__link {
+      margin-left: 32px;
+    }
+  }
+  
+  @media screen and (min-width: 1280px) {
+    .place__link {
+      margin-left: 40px;
+    }
+  }
