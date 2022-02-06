@@ -5,7 +5,7 @@
     font-weight: 900;
     color: #FFFFFF;
     justify-self: left;
-    flex: 50%;
+    flex: 47%;
     margin-bottom: 32px;
     padding: 0 16px;
     margin: 0;
@@ -20,7 +20,7 @@
     }
   }
   
-  @media (min-width: 1024px) and (min-width: 1280px) {
+  @media screen and (min-width: 1024px) {
     .place__title {
       font-size: 72px;
       line-height: 76px;

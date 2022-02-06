@@ -5,6 +5,7 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,9 +16,7 @@
 
 @media screen and (min-width: 1024px) {
   .place__url-heading {
-    font-size: 12px;
     line-height: 20.4px;
-    letter-spacing: 2px;
     margin-left: 32px;
   }
 }

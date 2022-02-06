@@ -1,28 +1,5 @@
 .header__lang-link {
   text-decoration: none;
+  cursor: pointer;
   color: #FFFFFF;
-  margin: 14px 0px 8px auto;
-  width: 30px;
-  height: 28px;
-}
-
-@media (min-width: 767px) and (max-width: 1280px){
-  .header__lang-link {
-    margin: 18px 0px 6px 0px;
-    width: 30px;
-    height: 28px;
-  }
-}
-
-.header__lang-link:first-child {
-  
-  text-decoration: underline;
-  margin-left: 18px;
-}
-
-@media (min-width: 767px) and (max-width: 1280px) {
-  .header__lang-link:first-child {    
-    width: 29px;
-    height: 28px;
-  }  
 }

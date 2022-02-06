@@ -1,3 +1,18 @@
 .cover__link {
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+  min-height: inherit;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition-property: background-color;
+  transition-duration: 0.8s;
+} 
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }

@@ -1,6 +1,5 @@
 .header {
     max-width: 288vh;
-    height: 42px;
     padding: 16px 0px 48px 0px;
     margin: 0px 16px;
     display: flex;
@@ -10,7 +9,6 @@
   @media screen and (min-width: 767px) {
     .header {
       max-width: 720vh;
-      height: 52px;
       padding: 28px 0px 48px 0px;
       margin: 0px 24px;
     }
@@ -23,8 +21,9 @@
     }
   }
   
-  @media screen and (min-width: 1279px) {
+  @media screen and (min-width: 1280px) {
     .header {
      max-width: 1184px;
+     margin: 0 auto;
     }
   }

@@ -1,4 +1,4 @@
-.cover {
+.cover__container {
   min-width: 320px;
   max-width: 1280px;
   z-index: 2;
@@ -13,21 +13,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .cover {
+  .cover__container {
     min-height: 480px;
     margin-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .cover  {
+  .cover__container  {
     min-height: 640px;
     margin-bottom: 92px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .cover  {
+  .cover__container  {
     min-height: 740px;
   }
 }
