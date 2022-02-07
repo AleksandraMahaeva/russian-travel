@@ -1,5 +1,18 @@
 .header__lang-link {
   text-decoration: none;
-  cursor: pointer;
   color: #FFFFFF;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

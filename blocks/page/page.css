@@ -1,7 +1,14 @@
-.page {  
+.page {
   min-width: 320px;
-  max-width: 1280px;
   margin: 0 auto;
   padding-bottom: 24px;
   font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    padding-left: calc((100% - 1280px)/2);
+    padding-right: calc((100% - 1280px)/2);
+  }
 }

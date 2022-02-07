@@ -5,7 +5,11 @@
   font-size: 24px;
   line-height: 24px;  
 }
-  
+
+.footer__link-info:hover {
+  opacity: 80%;
+}
+
 @media screen and (min-width: 768px) {
   .footer__link-info {  
     font-size: 16px;
